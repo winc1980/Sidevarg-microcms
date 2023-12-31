@@ -23,13 +23,13 @@ export const Footer = () => {
               <ul>
                 <li>
                   <a href="https://www.instagram.com/" target="_blank">
-                    <img src="/instagram-logo.svg" alt="" />
+                    <img src="/images/instagram-logo.svg" alt="" />
                     Instagram
                   </a>
                 </li>
                 <li>
                   <a href="https://twitter.com/" target="_blank">
-                    <img src="/twitter-logo.svg" alt="" />
+                    <img src="/images/twitter-logo.svg" alt="" />
                     Twitter
                   </a>
                 </li>

@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { Header } from '@/components/Header'
 import { Footer } from '@/components/Footer'
 import { useEffect } from 'react'
+import Head from 'next/head'
 
 // ダッシュボードから取得されるオブジェクトの型を定義
 
@@ -25,12 +26,15 @@ export default function Home({}) {
 
   return (
     <>
+      <Head>
+        <title>SINEMAX SIDEVARG</title>
+      </Head>
       <Header />
       <div>
         {/* メインビジュアル　ここから */}
         <section id="mv">
           <div className="mv_wrapper_1 fade">
-            <img src="/mv_cover1.png" className="mv_cv_img1" />
+            <img src="/images/mv_cover1.png" className="mv_cv_img1" />
             <div className="mv_contents_wrapper_1">
               <h1>人生にエイガを。</h1>
               <h2>
@@ -98,7 +102,7 @@ export default function Home({}) {
                 alt="info_images"
                 width="100%"
                 height="100%"
-                src="/sidevarg5 1.png"
+                src="/images/sidevarg5 1.png"
               />
             </div>
           </div>

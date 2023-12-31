@@ -5,7 +5,7 @@ export const Header = () => {
       <section id="header">
         <header>
           <div className="header_wrapper">
-            <img className="header-logo" src="./logo.svg" alt="" />
+            <img className="header-logo" src="/images/logo.svg" alt="" />
             <h1 className="header-title">CINEMAX SIDEVARG</h1>
             <nav className="header-nav">
               <ul className="header-menu">
